@@ -28,7 +28,7 @@ header{
 }
 
 header.sticky{
-    background-color: #3a6cf4;
+    background-color: #0A3D8F;
     padding: 10px 200px;
 }
 
@@ -70,7 +70,7 @@ section{
     height: 100vh;
     display: flex;
     align-items: center;
-    background-image: url(Image/bg.jpg);
+    background-image: url(Image/bg.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -99,7 +99,7 @@ section{
 }
 
 .animated-text h3{
-    color: #093464;
+    color: #ffffff;
     font-size: 3em;
     font-weight: 700;
     line-height: 70px;
@@ -133,8 +133,8 @@ section{
 }
 
 .btn{
-    color: white;
-    background-color: #3a6cf4;
+    color: #0A3D8F;
+    background-color: #ffffff;
     font-size: 1em;
     font-weight: 600;
     display: inline-block;
@@ -148,7 +148,7 @@ section{
 }
 
 .btn:hover{
-    background-color: #235bf6;
+    background-color: #000000;
 }
 
 .media-icons{
