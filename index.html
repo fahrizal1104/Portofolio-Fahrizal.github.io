@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhammad Fahrizal Portofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+</head>
+<body>
+
+
+    <header>
+        <a href="" class="brand" data-aos="zoom-in" data-aos-duration="1000">zal</a>
+        <div class="menu-btn"></div>
+        <div class="navigation">
+            <a href="#main" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100">Home</a>
+            <a href="#about"data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">About</a>
+            <a href="#skills" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300">My Project</a>
+
+        </div>
+    </header>
+
+    <section class="main" id="main">
+        <div class="content">
+            <h2 data-aos="fade-right" data-aos-duration="1000" data-aos-delay="800">Hello, I'm <br><span>Muhammad Fahrizal</span></h2>
+            <div class="animated-text" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="900">
+                <h3>Telecomunication Engineering</h3>
+                <h3>Web Designer</h3>
+                <h3>Programmer</h3>
+            </div>
+            <a href="#skills" class="btn" data-aos="zoom-out" data-aos-duration="1000" data-aos-delay="1000">See My Work</a>
+            <div class="media-icons">
+                <a href="https://www.instagram.com/muhammadfahriizal" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1300"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/muhfahrizal" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1400"><i class="fab fa-linkedin"></i></a>
+                <a href="#" data-aos="fade-in" data-aos-duration="1000" data-aos-delay="1400">
+                    <i class="fas fa-envelope"></i>
+                  </a>
+            </div>
+        </div>
+    </section>
+
+<!--  About Section -->
+
+    <section class="about" id="about">
+        <div class="title reveal">
+            <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">About me</h2>
+        </div>
+        <div class="content">
+            <div class="column col-left reveal">
+                <div class="img-card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
+                    <img src="Image/img1.jpg" alt="">
+                </div>
+            </div>
+            <div class="column col-right reveal">
+                <h2 class="content-title" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">Hey There! I am Muhammad Fahrizal</h2>
+                <p class="paragraph-text" data-aos="flip-up" data-aos-duration="1000" data-aos-delay="400">Mahasiswa Teknologi Telekomunikasi yang baru menyelesaikan semester 5 di Telkom University IPK 
+                    terakhir 3.44, memiliki keinginan mengembangkan diri serta menambah wawasan, pengalaman, dan 
+                    menambah relasi, memiliki antusias tinggi bekerja dalam dunia professional khususnya dibidang 
+                    telekomunikasi seperti jaringan dan mikrokontroler, saya senang belajar hal baru dan memiliki 
+                    kemampuan komunikasi yang baik, sedang mencari kesempatan untuk mengembangkan kemampuan 
+                    untuk bekerja dibidang telekomunikasi. </p>
+                <a href="#" class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="600">See more</a>
+            </div>
+        </div>
+    </section>
+
+<!-- Skill Section -->
+
+<section class="skills" id="skills">
+    <div class="title">
+        <h2 class="section-title" data-aos="fade-up" data-aos-duration="1000">My Projects</h2>
+    </div>
+    <div class="content">
+        
+        <div class="project" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+            <div class="project-image">
+                <img src="Image/project1.jpg" alt="Project 1">
+            </div>
+            <div class="project-info">
+                <h3>Website Cardiainsightt</h3>
+                <ul>
+                    <li>UI/UX (FIGMA)</li>
+                </ul>
+                <p>merancang UI/UX untuk Cardia Insight, sebuah platform yang berfokus pada pemantauan kesehatan jantung berbasis teknologi. Tujuan utama desain ini adalah menciptakan antarmuka yang intuitif, user-friendly, dan estetis, sehingga pengguna dapat dengan mudah mengakses data kesehatan mereka. </p>
+                <a href="https://www.figma.com/proto/lJFI8Oq2UUJL6nWNkC9imf/Untitled?node-id=362-636&starting-point-node-id=125%3A21&scaling=scale-down-width&content-scaling=fixed&t=YXLQlhJ1JntovuFY-1" class="btn">FIGMA Link</a>
+            </div>
+        </div>
+
+        <div class="project" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400">
+            <div class="project-image">
+                <img src="Image/project2.jpg" alt="Project 2">
+            </div>
+            <div class="project-info">
+                <h3>Data Warehousing using Talend</h3>
+                <ul>
+                    <li>Talend Open Studio - Data Integration</li>
+                </ul>
+                <p>This project splits data into multiple .xlsx files based on certain criteria for further processing.</p>
+                <a href="#" class="btn">PDF Link</a>
+            </div>
+        </div>
+        
+    </div>
+</section>
+
+<style>
+    .skills .content {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .project {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .project-image img {
+        width: 200px;
+        height: auto;
+        border-radius: 8px;
+    }
+    .project-info {
+        flex: 1;
+    }
+    .project-info h3 {
+        font-size: 22px;
+        margin-bottom: 10px;
+    }
+    .project-info ul {
+        list-style: none;
+        padding: 0;
+        font-weight: bold;
+    }
+    .project-info p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    </style>
+    
+
+
+  
+      <footer class="footer">
+        <span class="footer-title">Muhammad Fahrizal</span>
+        <p>Copyright @2025</p>
+      </footer>
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({offset:0});
+    </script>
+    <script>
+
+        window.addEventListener("scroll", function(){
+    scrollBtn.classList.toggle("active", window.scrollY > 500);
+});
+
+//javascript for scroll back to top on click scroll-to-top button
+
+// document.querySelector(".scrollToTop-btn").addEventListener("click", () => {
+//   document.body.scrollTop = 0;
+//   document.documentElement.scrollTop = 0;
+// });
+
+        const menuBtn = document.querySelector(".menu-btn");
+        const navigation = document.querySelector(".navigation");
+        const navigationItems = document.querySelector(".navigation a");
+
+        menuBtn.addEventListener("click", () => {
+            menuBtn.classList.toggle("active");
+            navigation.classList.toggle("active");
+        })
+
+        // Navigation Effects
+        window.addEventListener("scroll", function(){
+            const header = document.querySelector("header");
+            header.classList.toggle("sticky", window.scrollY > 0);
+        })
+
+        navigationItems.forEach((navigationItem) => {
+            navigationItem.addEventListener("click", () => {
+                menuBtn.classList.remove("active");
+                navigation.classList.remove("active")
+            })
+        })
+
+
+
+    </script>
+</body>
+</html>
