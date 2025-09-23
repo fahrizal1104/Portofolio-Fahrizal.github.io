@@ -830,3 +830,117 @@ section {
 }
 
 
+/* Tablet & HP medium */
+@media (max-width: 768px) {
+  /* Header */
+  header {
+    padding: 12px 15px;
+  }
+
+  .navigation.active {
+    width: 100%; /* full screen biar lebih pas */
+  }
+
+  /* Section */
+  section {
+    padding: 60px 15px;
+  }
+
+  /* Hero */
+  .main .content h2 {
+    font-size: 1.5em;
+  }
+
+  .animated-text h3 {
+    font-size: 1.8em;
+  }
+
+  /* About & Skills stacked */
+  .about .content,
+  .skills .content,
+  .exp-skill-section {
+    flex-direction: column;
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .about .content .col-left,
+  .about .content .col-right,
+  .skills .content .col-left,
+  .skills .content .col-right {
+    width: 100%;
+    max-width: 100%;
+    display: block;   /* pastikan tidak tersembunyi */
+  }
+
+  /* Tambahan untuk gambar About */
+  .about .img-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about .img-card img {
+    width: 100%;
+    max-width: 200px;  /* biar pas di HP */
+    height: auto;
+    display: block;
+    margin: 0 auto;   /* center */
+  }
+
+  /* Projects: 2 kolom */
+  .projects {
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 20px;
+  }
+}
+
+/* HP kecil (≤480px) */
+@media (max-width: 480px) {
+  header .brand {
+    font-size: 1.2em;
+  }
+
+  .main .content h2 {
+    font-size: 1.2em;
+  }
+
+  .animated-text h3 {
+    font-size: 1.4em;
+  }
+
+  .btn {
+    padding: 8px 15px;
+    font-size: 0.9em;
+  }
+
+  .project-info h3 {
+    font-size: 16px;
+  }
+
+  .project-info p {
+    font-size: 12px;
+  }
+
+  .skills-container {
+    justify-content: center; /* biar icon skills rata tengah */
+  }
+
+  .skill-card {
+    width: 60px;
+    height: 60px;
+  }
+
+  .skill-card img {
+    max-width: 30px;
+    max-height: 30px;
+  }
+
+  /* Tambahan untuk gambar About di HP kecil */
+  .about .img-card img {
+    max-width: 150px; /* lebih kecil khusus HP kecil */
+  }
+}
+
+
+
